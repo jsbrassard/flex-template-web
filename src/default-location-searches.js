@@ -12,7 +12,7 @@ export default [
     id: 'default-helsinki',
     predictionPlace: {
       address: 'Saguenay, Quebec',
-      bounds: new LatLngBounds(new LatLng(48.427917, -71.068171), new LatLng(48.427917, -71.068171)),
+      bounds: new LatLngBounds(new LatLng(48.42792, -71.06817), new LatLng(48.50529, -71.07817)),
     },
   },
   {
@@ -25,7 +25,7 @@ export default [
   {
     id: 'default-tampere',
     predictionPlace: {
-      address: 'Trois-Riviere, Quebec',
+      address: 'Trois-Rivieres, Quebec',
       bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
     },
   },
