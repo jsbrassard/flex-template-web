@@ -21,11 +21,11 @@ const AboutPage = () => {
   // prettier-ignore
   return (
     <StaticPage
-      title="About Us"
+      title="About Us | PVTH-eSolutions"
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Saunatime',
+        description: 'About PVTH-eSolutions',
         name: 'About page',
       }}
     >
@@ -35,7 +35,7 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Experience the unique Finnish home sauna.</h1>
+          <h1 className={css.pageTitle}>Skilled workers at your fingertips.</h1>
           <img className={css.coverImage} src={image} alt="My first ice cream." />
 
           <div className={css.contentWrapper}>
