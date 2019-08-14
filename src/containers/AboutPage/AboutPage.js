@@ -72,8 +72,8 @@ const AboutPage = () => {
                 Create your own marketplace like Saunatime
               </h3>
               <p>
-                Saunatime is brought to you by the good folks at{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Would you like
+                PVTH-eSolutions is brought to you by the good folks at{' '}
+                <ExternalLink href="http://preven.tech/en">Preven-Tech | Management</ExternalLink>. Would you like
                 to create your own marketplace platform a bit like Saunatime? Or perhaps a mobile
                 app? With Sharetribe it's really easy. If you have a marketplace idea in mind, do
                 get in touch!
