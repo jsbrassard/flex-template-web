@@ -2,49 +2,52 @@
  * Marketplace specific configuration.
  */
 
- export const yearsExperience = [
-   { key: 'intern', label: 'Intern' },
-   { key: '0to2', label: '0 to 2 years' },
-   { key: '3to5', label: '3 to 5 years' },
-   { key: '6to8', label: '6 to 8 years' },
-   { key: '9to15', label: '9 to 15 years' },
-   { key: '16to19', label: '16 to 19 years' },
-   { key: '20to25', label: '20 to 25 years' },
-   { key: '25plus', label: '25 years and more' },
- ];
-
-export const domain = [
+export const amenities = [
   {
-    key: 'mechanical',
-    label: 'Mechanical',
+    key: 'towels',
+    label: 'Towels',
   },
   {
-    key: 'electrical',
-    label: 'Electrical',
+    key: 'bathroom',
+    label: 'Bathroom',
   },
   {
-    key: 'civil',
-    label: 'Civil',
+    key: 'swimming_pool',
+    label: 'Swimming pool',
   },
   {
-    key: 'chemical',
-    label: 'Chemical',
+    key: 'own_drinks',
+    label: 'Own drinks allowed',
   },
   {
-    key: 'industrial',
-    label: 'Industrial',
+    key: 'jacuzzi',
+    label: 'Jacuzzi',
+  },
+  {
+    key: 'audiovisual_entertainment',
+    label: 'Audiovisual entertainment',
+  },
+  {
+    key: 'barbeque',
+    label: 'Barbeque',
+  },
+  {
+    key: 'own_food_allowed',
+    label: 'Own food allowed',
   },
 ];
 
 export const categories = [
-  { key: 'technician', label: 'Technician' },
-  { key: 'engineer', label: 'Engineer' },
+  { key: 'smoke', label: 'Smoke' },
+  { key: 'electric', label: 'Electric' },
+  { key: 'wood', label: 'Wood' },
+  { key: 'other', label: 'Other' },
 ];
 
 // Price filter configuration
 // Note: unlike most prices this is not handled in subunits
 export const priceFilterConfig = {
-  min: 50,
+  min: 0,
   max: 1000,
   step: 5,
 };
