@@ -12,7 +12,7 @@ export default [
     id: 'default-helsinki',
     predictionPlace: {
       address: 'Saguenay, Quebec',
-      bounds: new LatLngBounds(new LatLng(48.42792, -71.06817)),
+      bounds: new LatLngBounds(new LatLng(48.080977, -71.871983), new LatLng(48.681174, -70.663152)),
     },
   },
   {
