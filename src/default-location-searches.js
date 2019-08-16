@@ -19,21 +19,21 @@ export default [
     id: 'default-turku',
     predictionPlace: {
       address: 'Quebec, Quebec',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      bounds: new LatLngBounds(new LatLng(46.99554678, -71.04934911), new LatLng(46.64279468, -71.50615578)),
     },
   },
   {
     id: 'default-tampere',
     predictionPlace: {
       address: 'Trois-Rivieres, Quebec',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      bounds: new LatLngBounds(new LatLng(46.59108765, -72.3466331), new LatLng(46.23568221, -72.80343976)),
     },
   },
   {
     id: 'default-oulu',
     predictionPlace: {
       address: 'Montreal, Quebec',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      bounds: new LatLngBounds(new LatLng(45.9447086, -73.23691828), new LatLng(45.22317287, -74.15053161)),
     },
   },
 ];
